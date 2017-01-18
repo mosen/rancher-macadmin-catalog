@@ -1,0 +1,8 @@
+.catalog:
+  name: MunkiWebAdmin2
+  version: latest
+  description: MunkiWebAdmin2 focuses on web-based editing of manifests and pkginfo files
+  uuid: mwa2-0
+  minimum_rancher_version: 0.48.0
+#  questions:
+

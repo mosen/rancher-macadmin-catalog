@@ -1,0 +1,8 @@
+name: Reposado
+description: |
+  Reposado is a set of tools written in Python that replicate the key functionality of Mac OS X Server's Software Update Service.
+version: latest
+category: software-updates
+maintainer: mosen
+license: BSD
+projectURL: https://github.com/wdas/reposado

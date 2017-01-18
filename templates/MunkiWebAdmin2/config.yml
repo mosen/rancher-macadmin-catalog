@@ -1,0 +1,8 @@
+name: MunkiWebAdmin2
+description: |
+  MunkiWebAdmin2 focuses on web-based editing of manifests and pkginfo files
+version: latest
+category: software-deployment
+maintainer: mosen
+license: APACHE
+projectURL: https://github.com/munki/mwa2
