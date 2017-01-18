@@ -1,0 +1,8 @@
+version: '2'
+services:
+    bsdp:
+        image: erikaulin/bsdpy
+        volumes:
+            - netboot-images:/nbi   
+
+

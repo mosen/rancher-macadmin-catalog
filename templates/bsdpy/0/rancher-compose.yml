@@ -1,0 +1,7 @@
+.catalog:
+  name: BSDPy
+  version: latest
+  description: BSDPy
+  uuid: BSDPy-1.0
+  minimum_rancher_version: 0.43
+

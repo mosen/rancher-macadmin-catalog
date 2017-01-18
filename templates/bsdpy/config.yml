@@ -1,0 +1,9 @@
+name: BSDPy
+description: |
+  BSDPy is a platform-independent Apple NetBoot (BSDP) service for organizations
+  that have a need for Apple Mac NetBoot functionality but that lack the ability
+  to support OS X server in order to implement it.
+version: latest
+category: NetBoot
+maintainer: mosen
+projectURL: https://github.com/bruienne/bsdpy
