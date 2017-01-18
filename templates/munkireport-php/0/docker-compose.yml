@@ -1,0 +1,18 @@
+version: '2'
+services: 
+    web:
+        image: macadmins/munkireport-php
+        links:
+            - db
+        environment:
+            - PDO_DSN=mysql:host=db;dbname=munkireport
+    db:
+        image: mariadb:10.1
+        ports:
+            - "3306"
+        environment:
+            - MYSQL_DATABASE=munkireport
+            - MYSQL_USER=munkireport
+            - MYSQL_PASSWORD=munkireport
+            
+        

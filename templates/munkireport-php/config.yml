@@ -1,0 +1,11 @@
+name: munkireport-php
+description: |
+  Munkireport-php is a reporting client for munki.
+  - Quick overview of your mac fleet with a dashboard.
+  - Get reports on many features (hardware types, disk usage, etc)
+  - Lightweight and Responsive
+version: 0
+category: software-deployment
+maintainer: mosen
+license: MIT
+projectURL: https://github.com/munkireport/munkireport-php

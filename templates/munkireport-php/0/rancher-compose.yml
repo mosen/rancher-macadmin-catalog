@@ -1,0 +1,42 @@
+version: '2'
+catalog:
+  name: munkireport
+  version: latest
+  description: munkireport
+  minimum_rancher_version: 1.3
+  questions:
+    - variable: dashboard_layout
+      label: Dashboard Layout
+      description: |
+        Please enter a list of widgets to be shown on the dashboard
+      type: multiline
+      default: |
+        client, munki
+        disk_report, installed_memory, bound_to_ds
+        uptime, pending_apple, pending_munki
+        new_clients, munki_versions, filevault
+        warranty, power_battery_condition, power_battery_health
+        bluetooth_battery
+    - variable: auth_type
+      label: Authentication
+      description: |
+        The type of user Authentication
+      type: enum
+      options:
+        - None
+        - Local
+        - LDAP
+        - Active Directory
+    - variable: auth_ldap_server
+      label: LDAP Host(s)
+      description: |
+        One or more LDAP host(s), separated by commas
+      type: string
+    - variable: auth_ldap_usertree
+      label: User search template
+      description: |
+        The primary attribute and search location for users
+        eg. 'uid=%{user},cn=users,dc=server,dc=local'
+      type: string
+      default: uid=%{user},cn=users,dc=server,dc=local
+      
