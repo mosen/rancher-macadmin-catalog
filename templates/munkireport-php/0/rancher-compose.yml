@@ -1,9 +1,9 @@
-version: '2'
-catalog:
+.catalog:
   name: munkireport
   version: latest
   description: munkireport
-  minimum_rancher_version: 1.3
+  uuid: munkireport-0
+  minimum_rancher_version: v0.46.0
   questions:
     - variable: dashboard_layout
       label: Dashboard Layout
@@ -39,4 +39,4 @@ catalog:
         eg. 'uid=%{user},cn=users,dc=server,dc=local'
       type: string
       default: uid=%{user},cn=users,dc=server,dc=local
-      
+
